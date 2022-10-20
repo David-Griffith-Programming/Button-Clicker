@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-container">
+        <div class="nav-bar">
+            <div class="navbox-1">
+                <h1>Dojonary</h1> 
+            </div>
+            <div class="navbox-2">
+                <input class="search-bar" type="text" placeholder="Search...">
+            </div>
+            <div class="navbox-3">
+                <button class="login-button" onclick="login(this)">Login</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="colbox-1">
+                <div class="colboxleft-1">
+                    <h1>Ninja</h1>
+                    <p class="noun"><em>noun</em></p>
+                    <p class="ninjas">Plural: ninjas</p>
+                    <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="colboxright-1">
+                    <p>A practitioner skilled in the<br>
+                    <span class="colspan-1">Japanese</span> art of <span class="colspan-1">ninjutsu</span>
+                    </p>
+                </div>
+            </div>
+            <div class="colbox-1">
+                <div class="colboxleft-1">
+                    <h1>Ninja</h1>
+                    <p class="noun"><em>noun</em></p>
+                    <p class="ninjas">Plural: ninjas</p>
+                    <button class="likes" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="colboxright-1">
+                    <p>A <span class="colspan-1">programmer</span> who breaks<br>
+                    down problems with <span class="colspan-1">zen</span>-like<br>
+                    focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="colbox-2">
+                <h2>Dojonary is<br>
+                defined by <strong>YOU</strong>
+                </h2>
+                <button class="definition" onclick="removeDefiniton(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
